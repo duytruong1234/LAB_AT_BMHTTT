@@ -1,3 +1,4 @@
-# LAB2
+Họ và tên: Nguyễn Duy Trường
 
-## Nội dung bài Lab 2
+MSSV: 1150070048
+
