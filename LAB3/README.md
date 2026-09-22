@@ -1,15 +1,27 @@
-Họ tên: Nguyễn Duy Trường
+# Lab 3: Nhận diện và ứng phó các mối đe dọa đến an toàn thông tin
 
-MSSV: 1150070048
+## 1. Thông tin sinh viên
+- **Họ và tên:** Nguyễn Duy Trường
+- **Lớp:** 11_TMĐT
+- **MSSV:** 1150070048
 
-Tên Lab: Lab 3 - Nhận diện và ứng phó các mối đe dọa đến an toàn thông tin
+## 2. Môi trường thực hành
+- Windows 11 Pro 25H2 (OS Build 26200.9457)
+- VMware Workstation Pro 26H1
+- Sysmon 15.22
+- Autoruns 14.3
+- Process Explorer 17.14
+- Python 3.14.7
+- Wireshark 4.6.8
 
-Môi trường: Windows 11 VM, Defender, Sysmon, Autoruns, Process Explorer, Wireshark, Python
+## 3. Nội dung thực hành
+- **TH1:** Nhận diện tài sản, lỗ hổng, mối đe dọa và rủi ro — **PASS**
+- **TH2:** Kiểm chứng phát hiện EICAR bằng Microsoft Defender — **PASS**
+- **TH3:** Kiểm tra xác thực, mật khẩu và Event Log — **PASS**
+- **TH4:** Giám sát Sysmon, Persistence, Autoruns và Process Explorer — **PASS**
+- **TH5:** Phân tích lưu lượng HTTP và HTTPS bằng Wireshark — **PASS**
+- **TH6:** Phân tích DoS/DDoS và Mail Bombing — **PASS**
+- **TH7:** Phân tích Phishing và Social Engineering — **PASS**
 
-Cách dựng môi trường: Tạo máy ảo Windows 11, cài các công cụ cần thiết và chuẩn bị thư mục C:\LAB3
-
-Các tình huống đã thực hiện: EICAR, kiểm tra Event đăng nhập, process, persistence, HTTP/HTTPS và phục hồi hệ thống
-
-Kết quả: Hoàn thành các nội dung chính, kết quả đúng với mục tiêu bài Lab
-
-Lỗi và khắc phục: Một số thao tác cần kiểm tra lại cấu hình và log, sau đó chỉnh sửa và chạy lại để xác nhận kết quả
+## 4. Kết quả
+Hoàn thành các nội dung của Lab 3, thu thập các bằng chứng cần thiết và thực hiện cleanup môi trường sau khi kết thúc bài thực hành.
