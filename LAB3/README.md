@@ -15,13 +15,13 @@
 - Wireshark 4.6.8
 
 ## 3. Nội dung thực hành
-- **TH1:** Nhận diện tài sản, lỗ hổng, mối đe dọa và rủi ro — **PASS**
-- **TH2:** Kiểm chứng phát hiện EICAR bằng Microsoft Defender — **PASS**
-- **TH3:** Kiểm tra xác thực, mật khẩu và Event Log — **PASS**
-- **TH4:** Giám sát Sysmon, Persistence, Autoruns và Process Explorer — **PASS**
-- **TH5:** Phân tích lưu lượng HTTP và HTTPS bằng Wireshark — **PASS**
-- **TH6:** Phân tích DoS/DDoS và Mail Bombing — **PASS**
-- **TH7:** Phân tích Phishing và Social Engineering — **PASS**
+- **TH1:** Nhận diện tài sản, lỗ hổng, mối đe dọa và rủi ro - **PASS**
+- **TH2:** Kiểm chứng phát hiện EICAR bằng Microsoft Defender - **PASS**
+- **TH3:** Kiểm tra xác thực, mật khẩu và Event Log - **PASS**
+- **TH4:** Giám sát Sysmon, Persistence, Autoruns và Process Explorer - **PASS**
+- **TH5:** Phân tích lưu lượng HTTP và HTTPS bằng Wireshark - **PASS**
+- **TH6:** Phân tích DoS/DDoS và Mail Bombing - **PASS**
+- **TH7:** Phân tích Phishing và Social Engineering - **PASS**
 
 ## 4. Kết quả
 Hoàn thành các nội dung của Lab 3, thu thập các bằng chứng cần thiết và thực hiện cleanup môi trường sau khi kết thúc bài thực hành.
