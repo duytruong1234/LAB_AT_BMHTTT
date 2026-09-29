@@ -37,4 +37,4 @@ Khắc phục: Em bật DHCP cho VMnet1 trong VMware Virtual Network Editor và 
 
 Lỗi: File XML ban đầu không đúng định dạng nên không thể chuyển sang HTML.
 
-Khắc phục: Em xuất lại kết quả bằng tùy chọn `-oX`, sau đó dùng `xsltproc` để chuyển file XML sang HTML thành công.
+Khắc phục: Em xuất lại kết quả bằng tùy chọn -oX, sau đó dùng xsltproc để chuyển file XML sang HTML thành công.
