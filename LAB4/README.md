@@ -21,8 +21,8 @@ Em tạo các máy ảo bằng VMware Workstation Pro. Kali Linux dùng làm má
 - Thực hiện TCP Connect Scan và SYN Scan.
 - Thực hiện FIN, Xmas, NULL và ACK Scan.
 - Quét các cổng UDP phổ biến.
-- Phát hiện dịch vụ và phiên bản bằng `-sV`.
-- Nhận diện hệ điều hành bằng `-O` và quét tổng hợp bằng `-A`.
+- Phát hiện dịch vụ và phiên bản bằng -sV.
+- Nhận diện hệ điều hành bằng -O và quét tổng hợp bằng -A.
 - Sử dụng NSE Script kiểm tra dịch vụ SMB.
 - Lưu kết quả quét dưới dạng TXT, XML, Grepable và HTML.
 - Thực hiện quét trước và sau khi hardening trên Windows 10.
