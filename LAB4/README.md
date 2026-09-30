@@ -10,7 +10,7 @@ Nguyễn Duy Trường
 Khảo sát và đánh giá bề mặt mạng bằng Nmap
 
 ## 4. Phiên bản môi trường thực hành
-VMware Workstation Pro 26H1u1, Kali Linux Rolling 2026.2, Metasploitable 2, Windows 10 64-bit, Nmap 7.99/7.991 và Npcap 1.88.
+VMware Workstation Pro 26H1u1, Kali Linux Rolling 2026.2, Metasploitable 2, Windows 10 64-bit, Nmap 7.99 (Kali Linux), Nmap 7.991 (Windows 10) và Npcap 1.88.
 
 ## 5. Cách dựng môi trường
 Em tạo các máy ảo bằng VMware Workstation Pro. Kali Linux dùng làm máy quét, Metasploitable 2 và Windows 10 dùng làm máy mục tiêu. Các máy được kết nối bằng mạng Host-Only VMnet1 để thực hành trong mạng nội bộ.
