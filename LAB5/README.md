@@ -57,6 +57,5 @@ Card VMnet1 của máy thật không đặt DNS. Em cấu hình NAT, các rule t
 
 ## 8. Lỗi gặp phải và cách khắc phục
 
-- Các mục trong Virtual Network Editor bị mờ: Em chọn Change Settings và cấp quyền quản trị để chỉnh sửa.
 - Card LAN của pfSense ban đầu chọn nhầm VMnet0: Em đổi sang VMnet1 để kết nối đúng mạng LAN.
 - Gõ sai tham số -Server khi kiểm tra DNS: Em sửa lại lệnh và chạy lại thành công.
