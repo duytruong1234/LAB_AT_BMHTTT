@@ -79,8 +79,6 @@ Các chính sách firewall áp dụng theo IP, cổng và thời gian. Tài kho�
 | Tình huống 3: SOCIAL_SITE theo Schedule | | |
 | Tình huống 4: HTTP/HTTPS trong giờ hành chính | | |
 | Tình huống 5: Cô lập DMZ khỏi LAN | | |
-| Tình huống 6: Block và Reject | | |
-| Tình huống 7: Firewall Log và State Table | | |
 
 ## 8. Lỗi gặp phải và cách khắc phục
 
