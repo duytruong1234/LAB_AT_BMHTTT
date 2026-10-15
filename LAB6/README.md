@@ -72,13 +72,13 @@ Các chính sách firewall áp dụng theo IP, cổng và thời gian. Tài kho�
 
 | Nội dung | Kết quả thực tế | Đánh giá |
 |---|---|---|
-| Xác thực LDAP với sv_a và sv_b | | |
-| Đăng nhập Captive Portal | | |
-| Tình huống 1: JOB_SITE | | |
-| Tình huống 2: RESTRICTED_SITE | | |
-| Tình huống 3: SOCIAL_SITE theo Schedule | | |
-| Tình huống 4: HTTP/HTTPS trong giờ hành chính | | |
-| Tình huống 5: Cô lập DMZ khỏi LAN | | |
+| Xác thực LDAP với sv_a và sv_b | Cả hai tài khoản xác thực thành công. | PASS |
+| Đăng nhập Captive Portal | sv_a và sv_b đăng nhập thành công, có phiên trên pfSense. | PASS |
+| Tình huống 1: JOB_SITE | Client-A bị chặn JOB_SITE, vẫn truy cập được GENERAL_SITE. | PASS |
+| Tình huống 2: RESTRICTED_SITE | Cả hai client bị chặn RESTRICTED_SITE, vẫn truy cập được GENERAL_SITE. | PASS |
+| Tình huống 3: SOCIAL_SITE theo Schedule | Client-B truy cập được SOCIAL_SITE trong giờ nghỉ và bị chặn ngoài giờ. | PASS |
+| Tình huống 4: HTTP/HTTPS trong giờ hành chính | Chưa hoàn tất cấu hình và kiểm thử. | Chưa hoàn thành |
+| Tình huống 5: Cô lập DMZ khỏi LAN | LAN truy cập được web DMZ; DMZ bị chặn kết nối vào LAN, có log xác nhận. | PASS |
 
 ## 8. Lỗi gặp phải và cách khắc phục
 
