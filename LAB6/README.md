@@ -82,4 +82,10 @@ Các chính sách firewall áp dụng theo IP, cổng và thời gian. Tài kho�
 
 ## 8. Lỗi gặp phải và cách khắc phục
 
-Cập nhật sau khi thực hành.
+| Lỗi gặp phải | Cách khắc phục |
+|---|---|
+| pfSense không kết nối xác thực LDAP. | Kiểm tra tài khoản bind, Base DN và chính sách LDAP signing trên DC01 trong môi trường lab. |
+| Captive Portal báo chưa chọn máy chủ xác thực. | Chọn LAB6-AD tại Authentication Server, lưu và áp dụng cấu hình. |
+| Client vẫn truy cập được website bị chặn. | Đưa rule Block lên trên các rule Pass rộng, xóa state cũ rồi kiểm thử lại. |
+| SOCIAL_SITE vẫn mở được ngoài giờ. | Đặt rule Block ngay dưới rule Pass có Schedule và kiểm tra thời gian trên pfSense. |
+| Alias WEB_PORTS không được chấp nhận. | Chưa khắc phục hoàn tất; cần kiểm tra Alias có kiểu Port(s), gồm hai cổng 80 và 443. |
