@@ -1,10 +1,3 @@
-Created README.md
-Created README.md
-
-Mình đã viết xong và lưu sẵn file [README.md](file:///d:/An%20to%C3%A0n%20v%C3%A0%20b%E1%BA%A3o%20m%E1%BA%ADt%20h%E1%BB%87%20th%E1%BB%91ng%20th%C3%B4ng%20tin/%C4%90%E1%BB%81/LAB10/README.md) (và tại [LAB10/README.md](file:///d:/An%20to%C3%A0n%20v%C3%A0%20b%E1%BA%A3o%20m%E1%BA%ADt%20h%E1%BB%87%20th%E1%BB%91ng%20th%C3%B4ng%20tin/%C4%90%E1%BB%81/LAB10/LAB10/README.md)) theo đúng 100% bố cục 8 mục và giọng văn tự nhiên của bài Lab 8. Dưới đây là toàn bộ nội dung để bạn tiện copy:
-
----
-
 # Lab 10: Remote DNS Cache Poisoning trong môi trường pfSense cô lập
 
 ### 1. Họ và tên
