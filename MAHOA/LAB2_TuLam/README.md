@@ -13,7 +13,6 @@ Mã hóa đối xứng hiện đại, xác thực người dùng lưu lịch s�
 Triển khai dự án Maven giao diện Java Swing kết hợp cơ sở dữ liệu Microsoft SQL Server và ứng dụng Python Tkinter để thực hiện mã hóa, giải mã, xác thực tài khoản và lưu lịch sử thao tác.
 Cấu hình chi tiết hệ thống theo bảng:
 | Thành phần | Giá trị thiết lập | Vai trò |
-|---|---|---|
 | Dự án Java | LAB2_MaHoaHienDai | Chứa cấu hình Maven, mã nguồn các thuật toán và giao diện đồ họa |
 | Ứng dụng Python | LAB2_Python | Chứa chương trình giao diện Tkinter mã hóa và tự kiểm thử AES-CBC |
 | Giao thức kết nối | TCP/IP cổng 14333 | Cổng kết nối cố định giữa ứng dụng Java và SQL Server |
