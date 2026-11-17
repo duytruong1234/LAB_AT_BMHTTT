@@ -19,11 +19,6 @@ Cấu hình chi tiết hệ thống theo bảng:
 | Giao thức kết nối | TCP/IP cổng 14333 | Cổng kết nối cố định giữa ứng dụng Java và SQL Server |
 | Cơ sở dữ liệu | LAB2_MaHoaHienDai | Lưu trữ bảng người dùng và bảng lịch sử mã hóa, giải mã |
 | Tài khoản kết nối | lab2_user | Chỉ cấp quyền đọc và ghi dữ liệu trên cơ sở dữ liệu bài thực hành |
-Hướng dẫn chạy chương trình:
-- Bước 1: Mở SSMS bằng quyền quản trị, chạy các tệp SQL tạo cơ sở dữ liệu LAB2_MaHoaHienDai và tài khoản lab2_user trên cổng 14333.
-- Bước 2: Mở dự án LAB2_MaHoaHienDai, chạy cửa sổ chính frm_Menu, bấm Kết nối SQL Server nhập mật khẩu rồi chọn từng bài thực hành.
-- Bước 3: Cài thư viện cryptography cho Python và chạy tệp aes_cbc_gui.py trong thư mục LAB2_Python.
-## 6. Các tình huống thực hành
 | Tình huống | Tên kịch bản | Nội dung thực hiện |
 |---|---|---|
 | 1 | Bài 2.1 – Mật mã DES | Mã hóa và giải mã văn bản tiếng Việt chế độ CBC kèm IV ngẫu nhiên 8 byte với khóa 12345678, lưu mở tệp và kiểm tra bắt lỗi sai khóa. |
